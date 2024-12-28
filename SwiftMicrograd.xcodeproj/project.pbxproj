@@ -158,7 +158,6 @@
 				5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */,
 				99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,7 +172,7 @@
 				8E8F6CB92D2054D0008BFB84 /* Sources */,
 				8E8F6CBA2D2054D0008BFB84 /* Frameworks */,
 				8E8F6CBB2D2054D0008BFB84 /* Resources */,
-				7202510C715553A791FDCBED /* [CP] Embed Pods Frameworks */,
+				08C22F442F8D5AEBA746E484 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,7 +210,7 @@
 				8E8F6CD42D2054D1008BFB84 /* Sources */,
 				8E8F6CD52D2054D1008BFB84 /* Frameworks */,
 				8E8F6CD62D2054D1008BFB84 /* Resources */,
-				03264B433630A8501ABD05BE /* [CP] Embed Pods Frameworks */,
+				8AFAB17B0353DAC72CEF8521 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,21 +292,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03264B433630A8501ABD05BE /* [CP] Embed Pods Frameworks */ = {
+		08C22F442F8D5AEBA746E484 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		43F759E71636F845910C18CC /* [CP] Check Pods Manifest.lock */ = {
@@ -354,21 +353,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7202510C715553A791FDCBED /* [CP] Embed Pods Frameworks */ = {
+		8AFAB17B0353DAC72CEF8521 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF0D57D44E416D7425796082 /* [CP] Check Pods Manifest.lock */ = {
@@ -579,6 +578,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K2JV594WP2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -607,6 +607,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K2JV594WP2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;

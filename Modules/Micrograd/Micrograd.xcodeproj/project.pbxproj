@@ -7,69 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E1EBA9A2D206D9400FF4ED5 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBA992D206D9400FF4ED5 /* Value.swift */; };
+		8E1EBAD62D2070A600FF4ED5 /* Micrograd.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */; };
+		8E1EBADC2D2070A600FF4ED5 /* Micrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */; };
+		8E1EBAE12D2070A600FF4ED5 /* MicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */; };
+		8E1EBAE22D2070A600FF4ED5 /* Micrograd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E1EBADD2D2070A600FF4ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1EBAC82D2070A600FF4ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1EBAD02D2070A600FF4ED5;
+			remoteInfo = Micrograd;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		8E1EBA8C2D206D6B00FF4ED5 /* libMicrograd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMicrograd.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1EBA992D206D9400FF4ED5 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Micrograd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Micrograd.h; sourceTree = "<group>"; };
+		8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Micrograd.docc; sourceTree = "<group>"; };
+		8E1EBADB2D2070A600FF4ED5 /* MicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrogradTests.swift; sourceTree = "<group>"; };
+		8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E1EBA8A2D206D6B00FF4ED5 /* Frameworks */ = {
+		8E1EBACE2D2070A600FF4ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E1EBAD82D2070A600FF4ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1EBADC2D2070A600FF4ED5 /* Micrograd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E1EBA832D206D6B00FF4ED5 = {
+		8E1EBAC72D2070A600FF4ED5 = {
 			isa = PBXGroup;
 			children = (
-				8E1EBA8E2D206D6B00FF4ED5 /* Micrograd */,
-				8E1EBA8D2D206D6B00FF4ED5 /* Products */,
+				8E1EBAD32D2070A600FF4ED5 /* Micrograd */,
+				8E1EBADF2D2070A600FF4ED5 /* MicrogradTests */,
+				8E1EBAD22D2070A600FF4ED5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E1EBA8D2D206D6B00FF4ED5 /* Products */ = {
+		8E1EBAD22D2070A600FF4ED5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBA8C2D206D6B00FF4ED5 /* libMicrograd.a */,
+				8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */,
+				8E1EBADB2D2070A600FF4ED5 /* MicrogradTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E1EBA8E2D206D6B00FF4ED5 /* Micrograd */ = {
+		8E1EBAD32D2070A600FF4ED5 /* Micrograd */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBA992D206D9400FF4ED5 /* Value.swift */,
+				8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */,
+				8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */,
+				8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */,
 			);
 			path = Micrograd;
+			sourceTree = "<group>";
+		};
+		8E1EBADF2D2070A600FF4ED5 /* MicrogradTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */,
+			);
+			path = MicrogradTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8E1EBA882D206D6B00FF4ED5 /* Headers */ = {
+		8E1EBACC2D2070A600FF4ED5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1EBAE22D2070A600FF4ED5 /* Micrograd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E1EBA8B2D206D6B00FF4ED5 /* Micrograd */ = {
+		8E1EBAD02D2070A600FF4ED5 /* Micrograd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E1EBA952D206D6B00FF4ED5 /* Build configuration list for PBXNativeTarget "Micrograd" */;
+			buildConfigurationList = 8E1EBAE52D2070A600FF4ED5 /* Build configuration list for PBXNativeTarget "Micrograd" */;
 			buildPhases = (
-				8E1EBA882D206D6B00FF4ED5 /* Headers */,
-				8E1EBA892D206D6B00FF4ED5 /* Sources */,
-				8E1EBA8A2D206D6B00FF4ED5 /* Frameworks */,
+				8E1EBACC2D2070A600FF4ED5 /* Headers */,
+				8E1EBACD2D2070A600FF4ED5 /* Sources */,
+				8E1EBACE2D2070A600FF4ED5 /* Frameworks */,
+				8E1EBACF2D2070A600FF4ED5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -77,25 +117,46 @@
 			);
 			name = Micrograd;
 			productName = Micrograd;
-			productReference = 8E1EBA8C2D206D6B00FF4ED5 /* libMicrograd.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E1EBADA2D2070A600FF4ED5 /* MicrogradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1EBAE82D2070A600FF4ED5 /* Build configuration list for PBXNativeTarget "MicrogradTests" */;
+			buildPhases = (
+				8E1EBAD72D2070A600FF4ED5 /* Sources */,
+				8E1EBAD82D2070A600FF4ED5 /* Frameworks */,
+				8E1EBAD92D2070A600FF4ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1EBADE2D2070A600FF4ED5 /* PBXTargetDependency */,
+			);
+			name = MicrogradTests;
+			productName = MicrogradTests;
+			productReference = 8E1EBADB2D2070A600FF4ED5 /* MicrogradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E1EBA842D206D6B00FF4ED5 /* Project object */ = {
+		8E1EBAC82D2070A600FF4ED5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					8E1EBA8B2D206D6B00FF4ED5 = {
+					8E1EBAD02D2070A600FF4ED5 = {
 						CreatedOnToolsVersion = 15.2;
-						LastSwiftMigration = 1520;
+					};
+					8E1EBADA2D2070A600FF4ED5 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 8E1EBA872D206D6B00FF4ED5 /* Build configuration list for PBXProject "Micrograd" */;
+			buildConfigurationList = 8E1EBACB2D2070A600FF4ED5 /* Build configuration list for PBXProject "Micrograd" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +164,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E1EBA832D206D6B00FF4ED5;
-			productRefGroup = 8E1EBA8D2D206D6B00FF4ED5 /* Products */;
+			mainGroup = 8E1EBAC72D2070A600FF4ED5;
+			productRefGroup = 8E1EBAD22D2070A600FF4ED5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E1EBA8B2D206D6B00FF4ED5 /* Micrograd */,
+				8E1EBAD02D2070A600FF4ED5 /* Micrograd */,
+				8E1EBADA2D2070A600FF4ED5 /* MicrogradTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8E1EBACF2D2070A600FF4ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1EBAD92D2070A600FF4ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		8E1EBA892D206D6B00FF4ED5 /* Sources */ = {
+		8E1EBACD2D2070A600FF4ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1EBA9A2D206D9400FF4ED5 /* Value.swift in Sources */,
+				8E1EBAD62D2070A600FF4ED5 /* Micrograd.docc in Sources */,
+				8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1EBAD72D2070A600FF4ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1EBAE12D2070A600FF4ED5 /* MicrogradTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E1EBADE2D2070A600FF4ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1EBAD02D2070A600FF4ED5 /* Micrograd */;
+			targetProxy = 8E1EBADD2D2070A600FF4ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		8E1EBA932D206D6B00FF4ED5 /* Debug */ = {
+		8E1EBAE32D2070A600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -159,6 +255,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -183,10 +280,14 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8E1EBA942D206D6B00FF4ED5 /* Release */ = {
+		8E1EBAE42D2070A600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,6 +321,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -237,34 +339,102 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8E1EBA962D206D6B00FF4ED5 /* Debug */ = {
+		8E1EBAE62D2070A600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K2JV594WP2;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.Micrograd;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Micrograd/Micrograd-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		8E1EBA972D206D6B00FF4ED5 /* Release */ = {
+		8E1EBAE72D2070A600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K2JV594WP2;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.Micrograd;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Micrograd/Micrograd-Bridging-Header.h";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8E1EBAE92D2070A600FF4ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.MicrogradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E1EBAEA2D2070A600FF4ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.MicrogradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -272,25 +442,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E1EBA872D206D6B00FF4ED5 /* Build configuration list for PBXProject "Micrograd" */ = {
+		8E1EBACB2D2070A600FF4ED5 /* Build configuration list for PBXProject "Micrograd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E1EBA932D206D6B00FF4ED5 /* Debug */,
-				8E1EBA942D206D6B00FF4ED5 /* Release */,
+				8E1EBAE32D2070A600FF4ED5 /* Debug */,
+				8E1EBAE42D2070A600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E1EBA952D206D6B00FF4ED5 /* Build configuration list for PBXNativeTarget "Micrograd" */ = {
+		8E1EBAE52D2070A600FF4ED5 /* Build configuration list for PBXNativeTarget "Micrograd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E1EBA962D206D6B00FF4ED5 /* Debug */,
-				8E1EBA972D206D6B00FF4ED5 /* Release */,
+				8E1EBAE62D2070A600FF4ED5 /* Debug */,
+				8E1EBAE72D2070A600FF4ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1EBAE82D2070A600FF4ED5 /* Build configuration list for PBXNativeTarget "MicrogradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1EBAE92D2070A600FF4ED5 /* Debug */,
+				8E1EBAEA2D2070A600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E1EBA842D206D6B00FF4ED5 /* Project object */;
+	rootObject = 8E1EBAC82D2070A600FF4ED5 /* Project object */;
 }
