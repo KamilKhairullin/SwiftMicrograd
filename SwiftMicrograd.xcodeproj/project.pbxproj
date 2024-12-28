@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33D8D5EC11EA99EF5E6BF8F4 /* Pods_SwiftMicrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */; };
+		8B28ED4604E510A232C6B470 /* Pods_SwiftMicrogradTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */; };
 		8E8F6CC12D2054D0008BFB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */; };
 		8E8F6CC32D2054D0008BFB84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC22D2054D0008BFB84 /* ViewController.swift */; };
 		8E8F6CC52D2054D1008BFB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		8E8F6CD32D2054D1008BFB84 /* SwiftMicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */; };
 		8E8F6CDD2D2054D1008BFB84 /* SwiftMicrogradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */; };
 		8E8F6CDF2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */; };
+		ADEDFBC49A6BD8CF5B153B22 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.release.xcconfig"; sourceTree = "<group>"; };
+		4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd_SwiftMicrogradUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrogradTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMicrograd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E8F6CC22D2054D0008BFB84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITests.swift; sourceTree = "<group>"; };
 		8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D8D5EC11EA99EF5E6BF8F4 /* Pods_SwiftMicrograd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B28ED4604E510A232C6B470 /* Pods_SwiftMicrogradTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEDFBC49A6BD8CF5B153B22 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 				8E8F6CD12D2054D1008BFB84 /* SwiftMicrogradTests */,
 				8E8F6CDB2D2054D1008BFB84 /* SwiftMicrogradUITests */,
 				8E8F6CBE2D2054D0008BFB84 /* Products */,
+				F742E32102694AD4D12CAF60 /* Pods */,
+				CBA6FA5B1C486D9D221F6916 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +138,30 @@
 			path = SwiftMicrogradUITests;
 			sourceTree = "<group>";
 		};
+		CBA6FA5B1C486D9D221F6916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */,
+				4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */,
+				6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F742E32102694AD4D12CAF60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */,
+				109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */,
+				D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */,
+				9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */,
+				5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */,
+				99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8F6CE22D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */;
 			buildPhases = (
+				43F759E71636F845910C18CC /* [CP] Check Pods Manifest.lock */,
 				8E8F6CB92D2054D0008BFB84 /* Sources */,
 				8E8F6CBA2D2054D0008BFB84 /* Frameworks */,
 				8E8F6CBB2D2054D0008BFB84 /* Resources */,
+				7202510C715553A791FDCBED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8F6CE52D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */;
 			buildPhases = (
+				EF0D57D44E416D7425796082 /* [CP] Check Pods Manifest.lock */,
 				8E8F6CCA2D2054D1008BFB84 /* Sources */,
 				8E8F6CCB2D2054D1008BFB84 /* Frameworks */,
 				8E8F6CCC2D2054D1008BFB84 /* Resources */,
@@ -163,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E8F6CE82D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */;
 			buildPhases = (
+				55A3BA01D60A67468D365212 /* [CP] Check Pods Manifest.lock */,
 				8E8F6CD42D2054D1008BFB84 /* Sources */,
 				8E8F6CD52D2054D1008BFB84 /* Frameworks */,
 				8E8F6CD62D2054D1008BFB84 /* Resources */,
+				03264B433630A8501ABD05BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +291,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03264B433630A8501ABD05BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F759E71636F845910C18CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMicrograd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A3BA01D60A67468D365212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMicrograd-SwiftMicrogradUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7202510C715553A791FDCBED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0D57D44E416D7425796082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMicrogradTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E8F6CB92D2054D0008BFB84 /* Sources */ = {
@@ -420,6 +569,7 @@
 		};
 		8E8F6CE32D2054D1008BFB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +597,7 @@
 		};
 		8E8F6CE42D2054D1008BFB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +625,7 @@
 		};
 		8E8F6CE62D2054D1008BFB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		8E8F6CE72D2054D1008BFB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		8E8F6CE92D2054D1008BFB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +683,7 @@
 		};
 		8E8F6CEA2D2054D1008BFB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
