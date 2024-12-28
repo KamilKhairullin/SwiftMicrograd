@@ -7,172 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33D8D5EC11EA99EF5E6BF8F4 /* Pods_SwiftMicrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */; };
-		8B28ED4604E510A232C6B470 /* Pods_SwiftMicrogradTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */; };
-		8E8F6CC12D2054D0008BFB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */; };
-		8E8F6CC32D2054D0008BFB84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC22D2054D0008BFB84 /* ViewController.swift */; };
-		8E8F6CC52D2054D1008BFB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */; };
-		8E8F6CC82D2054D1008BFB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC62D2054D1008BFB84 /* Main.storyboard */; };
-		8E8F6CD32D2054D1008BFB84 /* SwiftMicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */; };
-		8E8F6CDD2D2054D1008BFB84 /* SwiftMicrogradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */; };
-		8E8F6CDF2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */; };
-		ADEDFBC49A6BD8CF5B153B22 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */; };
+		683DA6356E02C6742676E0A0 /* Pods_SwiftMicrogradTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4D81B6E5026FEDB5415698 /* Pods_SwiftMicrogradTests.framework */; };
+		897BB361597A67612DEEB4F6 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2936133B8762E35121347C /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */; };
+		8E1EBAFC2D2079D500FF4ED5 /* SwiftMicrogradApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */; };
+		8E1EBAFE2D2079D500FF4ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */; };
+		8E1EBB002D2079D600FF4ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */; };
+		8E1EBB032D2079D600FF4ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EBB022D2079D600FF4ED5 /* Preview Assets.xcassets */; };
+		8E1EBB0E2D2079D600FF4ED5 /* SwiftMicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB0D2D2079D600FF4ED5 /* SwiftMicrogradTests.swift */; };
+		8E1EBB182D2079D600FF4ED5 /* SwiftMicrogradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB172D2079D600FF4ED5 /* SwiftMicrogradUITests.swift */; };
+		8E1EBB1A2D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB192D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift */; };
+		E749A6A4206619F04CD34999 /* Pods_SwiftMicrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDDC59AB518AF7EF860739 /* Pods_SwiftMicrograd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E8F6CCF2D2054D1008BFB84 /* PBXContainerItemProxy */ = {
+		8E1EBB0A2D2079D600FF4ED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+			containerPortal = 8E1EBAF02D2079D500FF4ED5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E8F6CBC2D2054D0008BFB84;
+			remoteGlobalIDString = 8E1EBAF72D2079D500FF4ED5;
 			remoteInfo = SwiftMicrograd;
 		};
-		8E8F6CD92D2054D1008BFB84 /* PBXContainerItemProxy */ = {
+		8E1EBB142D2079D600FF4ED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+			containerPortal = 8E1EBAF02D2079D500FF4ED5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E8F6CBC2D2054D0008BFB84;
+			remoteGlobalIDString = 8E1EBAF72D2079D500FF4ED5;
 			remoteInfo = SwiftMicrograd;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.release.xcconfig"; sourceTree = "<group>"; };
-		4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd_SwiftMicrogradUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrogradTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.debug.xcconfig"; sourceTree = "<group>"; };
-		8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMicrograd.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E8F6CC22D2054D0008BFB84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E8F6CC72D2054D1008BFB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E8F6CC92D2054D1008BFB84 /* SwiftMicrograd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMicrograd.entitlements; sourceTree = "<group>"; };
-		8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradTests.swift; sourceTree = "<group>"; };
-		8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITests.swift; sourceTree = "<group>"; };
-		8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.release.xcconfig"; sourceTree = "<group>"; };
-		9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15A268EE865E987D90279B9E /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DE346B4289979ECFE095CCC /* Pods-SwiftMicrograd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.release.xcconfig"; sourceTree = "<group>"; };
+		4232BE0F6CB37C5299EF94EC /* Pods-SwiftMicrograd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd.debug.xcconfig"; sourceTree = "<group>"; };
+		562C2EB1B6A31E6610A023C4 /* Pods-SwiftMicrogradTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EFDDC59AB518AF7EF860739 /* Pods_SwiftMicrograd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBAF82D2079D500FF4ED5 /* SwiftMicrograd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMicrograd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradApp.swift; sourceTree = "<group>"; };
+		8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1EBB022D2079D600FF4ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E1EBB042D2079D600FF4ED5 /* SwiftMicrograd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMicrograd.entitlements; sourceTree = "<group>"; };
+		8E1EBB092D2079D600FF4ED5 /* SwiftMicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBB0D2D2079D600FF4ED5 /* SwiftMicrogradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradTests.swift; sourceTree = "<group>"; };
+		8E1EBB132D2079D600FF4ED5 /* SwiftMicrogradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EBB172D2079D600FF4ED5 /* SwiftMicrogradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITests.swift; sourceTree = "<group>"; };
+		8E1EBB192D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6A8EFA6BE76D8BE5719E491 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA76D5A1953914CDD5CCEB36 /* Pods-SwiftMicrogradTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4D81B6E5026FEDB5415698 /* Pods_SwiftMicrogradTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrogradTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2936133B8762E35121347C /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd_SwiftMicrogradUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E8F6CBA2D2054D0008BFB84 /* Frameworks */ = {
+		8E1EBAF52D2079D500FF4ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D8D5EC11EA99EF5E6BF8F4 /* Pods_SwiftMicrograd.framework in Frameworks */,
+				E749A6A4206619F04CD34999 /* Pods_SwiftMicrograd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CCB2D2054D1008BFB84 /* Frameworks */ = {
+		8E1EBB062D2079D600FF4ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B28ED4604E510A232C6B470 /* Pods_SwiftMicrogradTests.framework in Frameworks */,
+				683DA6356E02C6742676E0A0 /* Pods_SwiftMicrogradTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CD52D2054D1008BFB84 /* Frameworks */ = {
+		8E1EBB102D2079D600FF4ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEDFBC49A6BD8CF5B153B22 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */,
+				897BB361597A67612DEEB4F6 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E8F6CB42D2054D0008BFB84 = {
+		5B54796DBE7C3626B546C4D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8E8F6CBF2D2054D0008BFB84 /* SwiftMicrograd */,
-				8E8F6CD12D2054D1008BFB84 /* SwiftMicrogradTests */,
-				8E8F6CDB2D2054D1008BFB84 /* SwiftMicrogradUITests */,
-				8E8F6CBE2D2054D0008BFB84 /* Products */,
-				F742E32102694AD4D12CAF60 /* Pods */,
-				CBA6FA5B1C486D9D221F6916 /* Frameworks */,
+				4232BE0F6CB37C5299EF94EC /* Pods-SwiftMicrograd.debug.xcconfig */,
+				3DE346B4289979ECFE095CCC /* Pods-SwiftMicrograd.release.xcconfig */,
+				B6A8EFA6BE76D8BE5719E491 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */,
+				15A268EE865E987D90279B9E /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */,
+				BA76D5A1953914CDD5CCEB36 /* Pods-SwiftMicrogradTests.debug.xcconfig */,
+				562C2EB1B6A31E6610A023C4 /* Pods-SwiftMicrogradTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E1EBAEF2D2079D500FF4ED5 = {
+			isa = PBXGroup;
+			children = (
+				8E1EBAFA2D2079D500FF4ED5 /* SwiftMicrograd */,
+				8E1EBB0C2D2079D600FF4ED5 /* SwiftMicrogradTests */,
+				8E1EBB162D2079D600FF4ED5 /* SwiftMicrogradUITests */,
+				8E1EBAF92D2079D500FF4ED5 /* Products */,
+				5B54796DBE7C3626B546C4D8 /* Pods */,
+				B687E8D7AE42E59E5C8185BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		8E8F6CBE2D2054D0008BFB84 /* Products */ = {
+		8E1EBAF92D2079D500FF4ED5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */,
-				8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */,
-				8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */,
+				8E1EBAF82D2079D500FF4ED5 /* SwiftMicrograd.app */,
+				8E1EBB092D2079D600FF4ED5 /* SwiftMicrogradTests.xctest */,
+				8E1EBB132D2079D600FF4ED5 /* SwiftMicrogradUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E8F6CBF2D2054D0008BFB84 /* SwiftMicrograd */ = {
+		8E1EBAFA2D2079D500FF4ED5 /* SwiftMicrograd */ = {
 			isa = PBXGroup;
 			children = (
-				8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */,
-				8E8F6CC22D2054D0008BFB84 /* ViewController.swift */,
-				8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */,
-				8E8F6CC62D2054D1008BFB84 /* Main.storyboard */,
-				8E8F6CC92D2054D1008BFB84 /* SwiftMicrograd.entitlements */,
+				8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */,
+				8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */,
+				8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */,
+				8E1EBB042D2079D600FF4ED5 /* SwiftMicrograd.entitlements */,
+				8E1EBB012D2079D600FF4ED5 /* Preview Content */,
 			);
 			path = SwiftMicrograd;
 			sourceTree = "<group>";
 		};
-		8E8F6CD12D2054D1008BFB84 /* SwiftMicrogradTests */ = {
+		8E1EBB012D2079D600FF4ED5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */,
+				8E1EBB022D2079D600FF4ED5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E1EBB0C2D2079D600FF4ED5 /* SwiftMicrogradTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB0D2D2079D600FF4ED5 /* SwiftMicrogradTests.swift */,
 			);
 			path = SwiftMicrogradTests;
 			sourceTree = "<group>";
 		};
-		8E8F6CDB2D2054D1008BFB84 /* SwiftMicrogradUITests */ = {
+		8E1EBB162D2079D600FF4ED5 /* SwiftMicrogradUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */,
-				8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */,
+				8E1EBB172D2079D600FF4ED5 /* SwiftMicrogradUITests.swift */,
+				8E1EBB192D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift */,
 			);
 			path = SwiftMicrogradUITests;
 			sourceTree = "<group>";
 		};
-		CBA6FA5B1C486D9D221F6916 /* Frameworks */ = {
+		B687E8D7AE42E59E5C8185BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BF20871D1C80AFEC6D28AA0 /* Pods_SwiftMicrograd.framework */,
-				4973C39DD072B61456E01708 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */,
-				6745DBE80BE07BDA2740BD7D /* Pods_SwiftMicrogradTests.framework */,
+				6EFDDC59AB518AF7EF860739 /* Pods_SwiftMicrograd.framework */,
+				FA2936133B8762E35121347C /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */,
+				BC4D81B6E5026FEDB5415698 /* Pods_SwiftMicrogradTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F742E32102694AD4D12CAF60 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */,
-				109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */,
-				D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */,
-				9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */,
-				5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */,
-				99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */ = {
+		8E1EBAF72D2079D500FF4ED5 /* SwiftMicrograd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8F6CE22D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */;
+			buildConfigurationList = 8E1EBB1D2D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */;
 			buildPhases = (
-				43F759E71636F845910C18CC /* [CP] Check Pods Manifest.lock */,
-				8E8F6CB92D2054D0008BFB84 /* Sources */,
-				8E8F6CBA2D2054D0008BFB84 /* Frameworks */,
-				8E8F6CBB2D2054D0008BFB84 /* Resources */,
-				08C22F442F8D5AEBA746E484 /* [CP] Embed Pods Frameworks */,
+				02A06C21D7266E637660D0F6 /* [CP] Check Pods Manifest.lock */,
+				8E1EBAF42D2079D500FF4ED5 /* Sources */,
+				8E1EBAF52D2079D500FF4ED5 /* Frameworks */,
+				8E1EBAF62D2079D500FF4ED5 /* Resources */,
+				86380160CD8CFD910ACD13E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,72 +188,72 @@
 			);
 			name = SwiftMicrograd;
 			productName = SwiftMicrograd;
-			productReference = 8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */;
+			productReference = 8E1EBAF82D2079D500FF4ED5 /* SwiftMicrograd.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8E8F6CCD2D2054D1008BFB84 /* SwiftMicrogradTests */ = {
+		8E1EBB082D2079D600FF4ED5 /* SwiftMicrogradTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8F6CE52D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */;
+			buildConfigurationList = 8E1EBB202D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */;
 			buildPhases = (
-				EF0D57D44E416D7425796082 /* [CP] Check Pods Manifest.lock */,
-				8E8F6CCA2D2054D1008BFB84 /* Sources */,
-				8E8F6CCB2D2054D1008BFB84 /* Frameworks */,
-				8E8F6CCC2D2054D1008BFB84 /* Resources */,
+				59C9A758FD3E9EF4E5DF00BD /* [CP] Check Pods Manifest.lock */,
+				8E1EBB052D2079D600FF4ED5 /* Sources */,
+				8E1EBB062D2079D600FF4ED5 /* Frameworks */,
+				8E1EBB072D2079D600FF4ED5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E8F6CD02D2054D1008BFB84 /* PBXTargetDependency */,
+				8E1EBB0B2D2079D600FF4ED5 /* PBXTargetDependency */,
 			);
 			name = SwiftMicrogradTests;
 			productName = SwiftMicrogradTests;
-			productReference = 8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */;
+			productReference = 8E1EBB092D2079D600FF4ED5 /* SwiftMicrogradTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E8F6CD72D2054D1008BFB84 /* SwiftMicrogradUITests */ = {
+		8E1EBB122D2079D600FF4ED5 /* SwiftMicrogradUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8F6CE82D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */;
+			buildConfigurationList = 8E1EBB232D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */;
 			buildPhases = (
-				55A3BA01D60A67468D365212 /* [CP] Check Pods Manifest.lock */,
-				8E8F6CD42D2054D1008BFB84 /* Sources */,
-				8E8F6CD52D2054D1008BFB84 /* Frameworks */,
-				8E8F6CD62D2054D1008BFB84 /* Resources */,
-				8AFAB17B0353DAC72CEF8521 /* [CP] Embed Pods Frameworks */,
+				84183D1A722DD39502F3D2D1 /* [CP] Check Pods Manifest.lock */,
+				8E1EBB0F2D2079D600FF4ED5 /* Sources */,
+				8E1EBB102D2079D600FF4ED5 /* Frameworks */,
+				8E1EBB112D2079D600FF4ED5 /* Resources */,
+				790C9CA742213D422A35ED3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E8F6CDA2D2054D1008BFB84 /* PBXTargetDependency */,
+				8E1EBB152D2079D600FF4ED5 /* PBXTargetDependency */,
 			);
 			name = SwiftMicrogradUITests;
 			productName = SwiftMicrogradUITests;
-			productReference = 8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */;
+			productReference = 8E1EBB132D2079D600FF4ED5 /* SwiftMicrogradUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E8F6CB52D2054D0008BFB84 /* Project object */ = {
+		8E1EBAF02D2079D500FF4ED5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					8E8F6CBC2D2054D0008BFB84 = {
+					8E1EBAF72D2079D500FF4ED5 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					8E8F6CCD2D2054D1008BFB84 = {
+					8E1EBB082D2079D600FF4ED5 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 8E8F6CBC2D2054D0008BFB84;
+						TestTargetID = 8E1EBAF72D2079D500FF4ED5;
 					};
-					8E8F6CD72D2054D1008BFB84 = {
+					8E1EBB122D2079D600FF4ED5 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 8E8F6CBC2D2054D0008BFB84;
+						TestTargetID = 8E1EBAF72D2079D500FF4ED5;
 					};
 				};
 			};
-			buildConfigurationList = 8E8F6CB82D2054D0008BFB84 /* Build configuration list for PBXProject "SwiftMicrograd" */;
+			buildConfigurationList = 8E1EBAF32D2079D500FF4ED5 /* Build configuration list for PBXProject "SwiftMicrograd" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,36 +261,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E8F6CB42D2054D0008BFB84;
-			productRefGroup = 8E8F6CBE2D2054D0008BFB84 /* Products */;
+			mainGroup = 8E1EBAEF2D2079D500FF4ED5;
+			productRefGroup = 8E1EBAF92D2079D500FF4ED5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */,
-				8E8F6CCD2D2054D1008BFB84 /* SwiftMicrogradTests */,
-				8E8F6CD72D2054D1008BFB84 /* SwiftMicrogradUITests */,
+				8E1EBAF72D2079D500FF4ED5 /* SwiftMicrograd */,
+				8E1EBB082D2079D600FF4ED5 /* SwiftMicrogradTests */,
+				8E1EBB122D2079D600FF4ED5 /* SwiftMicrogradUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E8F6CBB2D2054D0008BFB84 /* Resources */ = {
+		8E1EBAF62D2079D500FF4ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8F6CC52D2054D1008BFB84 /* Assets.xcassets in Resources */,
-				8E8F6CC82D2054D1008BFB84 /* Main.storyboard in Resources */,
+				8E1EBB032D2079D600FF4ED5 /* Preview Assets.xcassets in Resources */,
+				8E1EBB002D2079D600FF4ED5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CCC2D2054D1008BFB84 /* Resources */ = {
+		8E1EBB072D2079D600FF4ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CD62D2054D1008BFB84 /* Resources */ = {
+		8E1EBB112D2079D600FF4ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,24 +300,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08C22F442F8D5AEBA746E484 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		43F759E71636F845910C18CC /* [CP] Check Pods Manifest.lock */ = {
+		02A06C21D7266E637660D0F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,46 +322,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		55A3BA01D60A67468D365212 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftMicrograd-SwiftMicrogradUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AFAB17B0353DAC72CEF8521 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF0D57D44E416D7425796082 /* [CP] Check Pods Manifest.lock */ = {
+		59C9A758FD3E9EF4E5DF00BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,63 +344,108 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		790C9CA742213D422A35ED3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84183D1A722DD39502F3D2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMicrograd-SwiftMicrogradUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86380160CD8CFD910ACD13E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftMicrograd/Pods-SwiftMicrograd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E8F6CB92D2054D0008BFB84 /* Sources */ = {
+		8E1EBAF42D2079D500FF4ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8F6CC32D2054D0008BFB84 /* ViewController.swift in Sources */,
-				8E8F6CC12D2054D0008BFB84 /* AppDelegate.swift in Sources */,
+				8E1EBAFE2D2079D500FF4ED5 /* ContentView.swift in Sources */,
+				8E1EBAFC2D2079D500FF4ED5 /* SwiftMicrogradApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CCA2D2054D1008BFB84 /* Sources */ = {
+		8E1EBB052D2079D600FF4ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8F6CD32D2054D1008BFB84 /* SwiftMicrogradTests.swift in Sources */,
+				8E1EBB0E2D2079D600FF4ED5 /* SwiftMicrogradTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8F6CD42D2054D1008BFB84 /* Sources */ = {
+		8E1EBB0F2D2079D600FF4ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8F6CDD2D2054D1008BFB84 /* SwiftMicrogradUITests.swift in Sources */,
-				8E8F6CDF2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */,
+				8E1EBB182D2079D600FF4ED5 /* SwiftMicrogradUITests.swift in Sources */,
+				8E1EBB1A2D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E8F6CD02D2054D1008BFB84 /* PBXTargetDependency */ = {
+		8E1EBB0B2D2079D600FF4ED5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */;
-			targetProxy = 8E8F6CCF2D2054D1008BFB84 /* PBXContainerItemProxy */;
+			target = 8E1EBAF72D2079D500FF4ED5 /* SwiftMicrograd */;
+			targetProxy = 8E1EBB0A2D2079D600FF4ED5 /* PBXContainerItemProxy */;
 		};
-		8E8F6CDA2D2054D1008BFB84 /* PBXTargetDependency */ = {
+		8E1EBB152D2079D600FF4ED5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */;
-			targetProxy = 8E8F6CD92D2054D1008BFB84 /* PBXContainerItemProxy */;
+			target = 8E1EBAF72D2079D500FF4ED5 /* SwiftMicrograd */;
+			targetProxy = 8E1EBB142D2079D600FF4ED5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		8E8F6CC62D2054D1008BFB84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8F6CC72D2054D1008BFB84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		8E8F6CE02D2054D1008BFB84 /* Debug */ = {
+		8E1EBB1B2D2079D600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		8E8F6CE12D2054D1008BFB84 /* Release */ = {
+		8E1EBB1C2D2079D600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -566,9 +563,9 @@
 			};
 			name = Release;
 		};
-		8E8F6CE32D2054D1008BFB84 /* Debug */ = {
+		8E1EBB1E2D2079D600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F4640B233DD454CAFEACBB /* Pods-SwiftMicrograd.debug.xcconfig */;
+			baseConfigurationReference = 4232BE0F6CB37C5299EF94EC /* Pods-SwiftMicrograd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -576,13 +573,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftMicrograd/Preview Content\"";
 				DEVELOPMENT_TEAM = K2JV594WP2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -595,9 +592,9 @@
 			};
 			name = Debug;
 		};
-		8E8F6CE42D2054D1008BFB84 /* Release */ = {
+		8E1EBB1F2D2079D600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 109F105D40A250D353D34997 /* Pods-SwiftMicrograd.release.xcconfig */;
+			baseConfigurationReference = 3DE346B4289979ECFE095CCC /* Pods-SwiftMicrograd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -605,13 +602,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftMicrograd/Preview Content\"";
 				DEVELOPMENT_TEAM = K2JV594WP2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -624,9 +621,9 @@
 			};
 			name = Release;
 		};
-		8E8F6CE62D2054D1008BFB84 /* Debug */ = {
+		8E1EBB212D2079D600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A4A9BA701D0C423A67FA837 /* Pods-SwiftMicrogradTests.debug.xcconfig */;
+			baseConfigurationReference = BA76D5A1953914CDD5CCEB36 /* Pods-SwiftMicrogradTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,9 +641,9 @@
 			};
 			name = Debug;
 		};
-		8E8F6CE72D2054D1008BFB84 /* Release */ = {
+		8E1EBB222D2079D600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99DEB9C7DE968C858D305DB0 /* Pods-SwiftMicrogradTests.release.xcconfig */;
+			baseConfigurationReference = 562C2EB1B6A31E6610A023C4 /* Pods-SwiftMicrogradTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -664,9 +661,9 @@
 			};
 			name = Release;
 		};
-		8E8F6CE92D2054D1008BFB84 /* Debug */ = {
+		8E1EBB242D2079D600FF4ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D360630EA97F72DC653DC7E4 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */;
+			baseConfigurationReference = B6A8EFA6BE76D8BE5719E491 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -682,9 +679,9 @@
 			};
 			name = Debug;
 		};
-		8E8F6CEA2D2054D1008BFB84 /* Release */ = {
+		8E1EBB252D2079D600FF4ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D1DB1C5F95DDE8D623D35CE /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */;
+			baseConfigurationReference = 15A268EE865E987D90279B9E /* Pods-SwiftMicrograd-SwiftMicrogradUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -703,43 +700,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E8F6CB82D2054D0008BFB84 /* Build configuration list for PBXProject "SwiftMicrograd" */ = {
+		8E1EBAF32D2079D500FF4ED5 /* Build configuration list for PBXProject "SwiftMicrograd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8F6CE02D2054D1008BFB84 /* Debug */,
-				8E8F6CE12D2054D1008BFB84 /* Release */,
+				8E1EBB1B2D2079D600FF4ED5 /* Debug */,
+				8E1EBB1C2D2079D600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8F6CE22D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */ = {
+		8E1EBB1D2D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8F6CE32D2054D1008BFB84 /* Debug */,
-				8E8F6CE42D2054D1008BFB84 /* Release */,
+				8E1EBB1E2D2079D600FF4ED5 /* Debug */,
+				8E1EBB1F2D2079D600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8F6CE52D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */ = {
+		8E1EBB202D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8F6CE62D2054D1008BFB84 /* Debug */,
-				8E8F6CE72D2054D1008BFB84 /* Release */,
+				8E1EBB212D2079D600FF4ED5 /* Debug */,
+				8E1EBB222D2079D600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E8F6CE82D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */ = {
+		8E1EBB232D2079D600FF4ED5 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E8F6CE92D2054D1008BFB84 /* Debug */,
-				8E8F6CEA2D2054D1008BFB84 /* Release */,
+				8E1EBB242D2079D600FF4ED5 /* Debug */,
+				8E1EBB252D2079D600FF4ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+	rootObject = 8E1EBAF02D2079D500FF4ED5 /* Project object */;
 }
