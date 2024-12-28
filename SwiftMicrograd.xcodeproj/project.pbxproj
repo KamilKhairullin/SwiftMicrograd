@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E8F6CC12D2054D0008BFB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */; };
+		8E8F6CC32D2054D0008BFB84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC22D2054D0008BFB84 /* ViewController.swift */; };
+		8E8F6CC52D2054D1008BFB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */; };
+		8E8F6CC82D2054D1008BFB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8F6CC62D2054D1008BFB84 /* Main.storyboard */; };
+		8E8F6CD32D2054D1008BFB84 /* SwiftMicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */; };
+		8E8F6CDD2D2054D1008BFB84 /* SwiftMicrogradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */; };
+		8E8F6CDF2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E8F6CCF2D2054D1008BFB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8F6CBC2D2054D0008BFB84;
+			remoteInfo = SwiftMicrograd;
+		};
+		8E8F6CD92D2054D1008BFB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8F6CBC2D2054D0008BFB84;
+			remoteInfo = SwiftMicrograd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMicrograd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E8F6CC22D2054D0008BFB84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E8F6CC72D2054D1008BFB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E8F6CC92D2054D1008BFB84 /* SwiftMicrograd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMicrograd.entitlements; sourceTree = "<group>"; };
+		8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradTests.swift; sourceTree = "<group>"; };
+		8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITests.swift; sourceTree = "<group>"; };
+		8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8F6CBA2D2054D0008BFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CCB2D2054D1008BFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CD52D2054D1008BFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8F6CB42D2054D0008BFB84 = {
+			isa = PBXGroup;
+			children = (
+				8E8F6CBF2D2054D0008BFB84 /* SwiftMicrograd */,
+				8E8F6CD12D2054D1008BFB84 /* SwiftMicrogradTests */,
+				8E8F6CDB2D2054D1008BFB84 /* SwiftMicrogradUITests */,
+				8E8F6CBE2D2054D0008BFB84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8F6CBE2D2054D0008BFB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */,
+				8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */,
+				8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E8F6CBF2D2054D0008BFB84 /* SwiftMicrograd */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F6CC02D2054D0008BFB84 /* AppDelegate.swift */,
+				8E8F6CC22D2054D0008BFB84 /* ViewController.swift */,
+				8E8F6CC42D2054D1008BFB84 /* Assets.xcassets */,
+				8E8F6CC62D2054D1008BFB84 /* Main.storyboard */,
+				8E8F6CC92D2054D1008BFB84 /* SwiftMicrograd.entitlements */,
+			);
+			path = SwiftMicrograd;
+			sourceTree = "<group>";
+		};
+		8E8F6CD12D2054D1008BFB84 /* SwiftMicrogradTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F6CD22D2054D1008BFB84 /* SwiftMicrogradTests.swift */,
+			);
+			path = SwiftMicrogradTests;
+			sourceTree = "<group>";
+		};
+		8E8F6CDB2D2054D1008BFB84 /* SwiftMicrogradUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8F6CDC2D2054D1008BFB84 /* SwiftMicrogradUITests.swift */,
+				8E8F6CDE2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift */,
+			);
+			path = SwiftMicrogradUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8F6CE22D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */;
+			buildPhases = (
+				8E8F6CB92D2054D0008BFB84 /* Sources */,
+				8E8F6CBA2D2054D0008BFB84 /* Frameworks */,
+				8E8F6CBB2D2054D0008BFB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMicrograd;
+			productName = SwiftMicrograd;
+			productReference = 8E8F6CBD2D2054D0008BFB84 /* SwiftMicrograd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E8F6CCD2D2054D1008BFB84 /* SwiftMicrogradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8F6CE52D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */;
+			buildPhases = (
+				8E8F6CCA2D2054D1008BFB84 /* Sources */,
+				8E8F6CCB2D2054D1008BFB84 /* Frameworks */,
+				8E8F6CCC2D2054D1008BFB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8F6CD02D2054D1008BFB84 /* PBXTargetDependency */,
+			);
+			name = SwiftMicrogradTests;
+			productName = SwiftMicrogradTests;
+			productReference = 8E8F6CCE2D2054D1008BFB84 /* SwiftMicrogradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E8F6CD72D2054D1008BFB84 /* SwiftMicrogradUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8F6CE82D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */;
+			buildPhases = (
+				8E8F6CD42D2054D1008BFB84 /* Sources */,
+				8E8F6CD52D2054D1008BFB84 /* Frameworks */,
+				8E8F6CD62D2054D1008BFB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8F6CDA2D2054D1008BFB84 /* PBXTargetDependency */,
+			);
+			name = SwiftMicrogradUITests;
+			productName = SwiftMicrogradUITests;
+			productReference = 8E8F6CD82D2054D1008BFB84 /* SwiftMicrogradUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8F6CB52D2054D0008BFB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8E8F6CBC2D2054D0008BFB84 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8E8F6CCD2D2054D1008BFB84 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E8F6CBC2D2054D0008BFB84;
+					};
+					8E8F6CD72D2054D1008BFB84 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8E8F6CBC2D2054D0008BFB84;
+					};
+				};
+			};
+			buildConfigurationList = 8E8F6CB82D2054D0008BFB84 /* Build configuration list for PBXProject "SwiftMicrograd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E8F6CB42D2054D0008BFB84;
+			productRefGroup = 8E8F6CBE2D2054D0008BFB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */,
+				8E8F6CCD2D2054D1008BFB84 /* SwiftMicrogradTests */,
+				8E8F6CD72D2054D1008BFB84 /* SwiftMicrogradUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E8F6CBB2D2054D0008BFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8F6CC52D2054D1008BFB84 /* Assets.xcassets in Resources */,
+				8E8F6CC82D2054D1008BFB84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CCC2D2054D1008BFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CD62D2054D1008BFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8F6CB92D2054D0008BFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8F6CC32D2054D0008BFB84 /* ViewController.swift in Sources */,
+				8E8F6CC12D2054D0008BFB84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CCA2D2054D1008BFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8F6CD32D2054D1008BFB84 /* SwiftMicrogradTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8F6CD42D2054D1008BFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8F6CDD2D2054D1008BFB84 /* SwiftMicrogradUITests.swift in Sources */,
+				8E8F6CDF2D2054D1008BFB84 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E8F6CD02D2054D1008BFB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */;
+			targetProxy = 8E8F6CCF2D2054D1008BFB84 /* PBXContainerItemProxy */;
+		};
+		8E8F6CDA2D2054D1008BFB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8F6CBC2D2054D0008BFB84 /* SwiftMicrograd */;
+			targetProxy = 8E8F6CD92D2054D1008BFB84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E8F6CC62D2054D1008BFB84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8F6CC72D2054D1008BFB84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E8F6CE02D2054D1008BFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E8F6CE12D2054D1008BFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8E8F6CE32D2054D1008BFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftMicrograd/SwiftMicrograd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrograd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E8F6CE42D2054D1008BFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftMicrograd/SwiftMicrograd.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrograd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8E8F6CE62D2054D1008BFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrogradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMicrograd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftMicrograd";
+			};
+			name = Debug;
+		};
+		8E8F6CE72D2054D1008BFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrogradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMicrograd.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftMicrograd";
+			};
+			name = Release;
+		};
+		8E8F6CE92D2054D1008BFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrogradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftMicrograd;
+			};
+			name = Debug;
+		};
+		8E8F6CEA2D2054D1008BFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2JV594WP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamil.khairullin.SwiftMicrogradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftMicrograd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8F6CB82D2054D0008BFB84 /* Build configuration list for PBXProject "SwiftMicrograd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8F6CE02D2054D1008BFB84 /* Debug */,
+				8E8F6CE12D2054D1008BFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8F6CE22D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrograd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8F6CE32D2054D1008BFB84 /* Debug */,
+				8E8F6CE42D2054D1008BFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8F6CE52D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8F6CE62D2054D1008BFB84 /* Debug */,
+				8E8F6CE72D2054D1008BFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8F6CE82D2054D1008BFB84 /* Build configuration list for PBXNativeTarget "SwiftMicrogradUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8F6CE92D2054D1008BFB84 /* Debug */,
+				8E8F6CEA2D2054D1008BFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8F6CB52D2054D0008BFB84 /* Project object */;
+}
