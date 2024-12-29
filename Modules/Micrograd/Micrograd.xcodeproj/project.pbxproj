@@ -26,6 +26,9 @@
 		8E1EBB582D21C4DB00FF4ED5 /* ValueTestsPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */; };
 		8E1EBB5A2D21C68000FF4ED5 /* ValueTestsTanh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */; };
 		8E1EBB5C2D21C89000FF4ED5 /* ValueTestsExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */; };
+		8E1EBB602D21D8A600FF4ED5 /* NeuronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB5F2D21D8A600FF4ED5 /* NeuronTests.swift */; };
+		8E1EBB622D21DD2600FF4ED5 /* LayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB612D21DD2600FF4ED5 /* LayerTests.swift */; };
+		8E1EBB642D21DE1C00FF4ED5 /* MLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB632D21DE1C00FF4ED5 /* MLPTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsPow.swift; sourceTree = "<group>"; };
 		8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsTanh.swift; sourceTree = "<group>"; };
 		8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsExp.swift; sourceTree = "<group>"; };
+		8E1EBB5F2D21D8A600FF4ED5 /* NeuronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronTests.swift; sourceTree = "<group>"; };
+		8E1EBB612D21DD2600FF4ED5 /* LayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTests.swift; sourceTree = "<group>"; };
+		8E1EBB632D21DE1C00FF4ED5 /* MLPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLPTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +120,8 @@
 		8E1EBADF2D2070A600FF4ED5 /* MicrogradTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBB4F2D21AF7900FF4ED5 /* ValueTestsUtils.swift */,
-				8E1EBB4D2D21AA9500FF4ED5 /* ValueTestsAdd.swift */,
-				8E1EBB512D21BB7C00FF4ED5 /* ValueTestsMul.swift */,
-				8E1EBB532D21BC4200FF4ED5 /* ValueTestsSub.swift */,
-				8E1EBB552D21BF9700FF4ED5 /* ValueTestsDiv.swift */,
-				8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */,
-				8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */,
-				8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */,
+				8E1EBB5E2D21D89C00FF4ED5 /* MLP */,
+				8E1EBB5D2D21D89000FF4ED5 /* Value */,
 			);
 			path = MicrogradTests;
 			sourceTree = "<group>";
@@ -152,6 +152,31 @@
 				8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */,
 			);
 			path = CostFunctions;
+			sourceTree = "<group>";
+		};
+		8E1EBB5D2D21D89000FF4ED5 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB4F2D21AF7900FF4ED5 /* ValueTestsUtils.swift */,
+				8E1EBB4D2D21AA9500FF4ED5 /* ValueTestsAdd.swift */,
+				8E1EBB512D21BB7C00FF4ED5 /* ValueTestsMul.swift */,
+				8E1EBB532D21BC4200FF4ED5 /* ValueTestsSub.swift */,
+				8E1EBB552D21BF9700FF4ED5 /* ValueTestsDiv.swift */,
+				8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */,
+				8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */,
+				8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */,
+			);
+			path = Value;
+			sourceTree = "<group>";
+		};
+		8E1EBB5E2D21D89C00FF4ED5 /* MLP */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB5F2D21D8A600FF4ED5 /* NeuronTests.swift */,
+				8E1EBB612D21DD2600FF4ED5 /* LayerTests.swift */,
+				8E1EBB632D21DE1C00FF4ED5 /* MLPTests.swift */,
+			);
+			path = MLP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1EBB522D21BB7C00FF4ED5 /* ValueTestsMul.swift in Sources */,
+				8E1EBB622D21DD2600FF4ED5 /* LayerTests.swift in Sources */,
+				8E1EBB602D21D8A600FF4ED5 /* NeuronTests.swift in Sources */,
 				8E1EBB542D21BC4200FF4ED5 /* ValueTestsSub.swift in Sources */,
 				8E1EBB5C2D21C89000FF4ED5 /* ValueTestsExp.swift in Sources */,
 				8E1EBB5A2D21C68000FF4ED5 /* ValueTestsTanh.swift in Sources */,
 				8E1EBB562D21BF9700FF4ED5 /* ValueTestsDiv.swift in Sources */,
 				8E1EBB502D21AF7900FF4ED5 /* ValueTestsUtils.swift in Sources */,
 				8E1EBB582D21C4DB00FF4ED5 /* ValueTestsPow.swift in Sources */,
+				8E1EBB642D21DE1C00FF4ED5 /* MLPTests.swift in Sources */,
 				8E1EBB4E2D21AA9500FF4ED5 /* ValueTestsAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,12 @@ final public class SquareLoss {
         var squareLoss = Value(data: 0)
         assert(y_pred.count == y_val.count, "y_pred and y_val count are not equal")
         
-        for (yout, ygt) in zip(y_pred, y_val) {
-            squareLoss = squareLoss + (yout - ygt) * (yout - ygt)
+        for i in 0..<y_pred.count {
+            let yout = y_pred[i]
+            let ygt = y_val[i]
+            let sub = yout - ygt
+            let sqloss_i = sub ^^ 2
+            squareLoss = squareLoss + sqloss_i
         }
         return squareLoss
     }

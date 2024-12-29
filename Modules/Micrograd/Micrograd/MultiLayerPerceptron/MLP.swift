@@ -4,12 +4,20 @@ public class MLP {
     
     let layers: [Layer]
     
-    public init(layersWithSize: [Int]) {
+    public convenience init(layersWithSize: [Int]) {
         var layers: [Layer] = []
         for i in 0..<layersWithSize.count {
-            let layer = Layer(numberOfNeurons: layersWithSize[i], prevLayerOutputSize: i == 0 ? 2 : layers[i-1].neurons.count)
+            let currentLayerNeuronsCount = layersWithSize[i]
+            let layer = Layer(
+                numberOfNeurons: currentLayerNeuronsCount,
+                prevLayerOutputSize: i == 0 ? currentLayerNeuronsCount : layers[i-1].neurons.count
+            )
             layers.append(layer)
         }
+        self.init(layers: layers)
+    }
+    
+    init(layers: [Layer]) {
         self.layers = layers
     }
     

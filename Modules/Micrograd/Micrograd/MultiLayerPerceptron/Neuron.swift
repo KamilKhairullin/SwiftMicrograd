@@ -4,9 +4,16 @@ class Neuron {
     var bias: Value
     var weights: [Value]
     
-    init(inputSize: Int) {
-        self.bias = Value.makeRandomValue()
-        self.weights = .init(repeating: Value.makeRandomValue(), count: inputSize)
+    convenience init(inputSize: Int) {
+        self.init(
+            weights: .init(repeating: Value.makeRandomValue(), count: inputSize),
+            bias: Value.makeRandomValue()
+        )
+    }
+    
+    init(weights: [Value], bias: Value) {
+        self.bias = bias
+        self.weights = weights
     }
     
     func call(input: [Value]) -> Value {

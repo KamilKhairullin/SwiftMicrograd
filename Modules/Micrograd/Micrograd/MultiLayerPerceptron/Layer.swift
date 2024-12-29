@@ -4,8 +4,12 @@ class Layer {
     
     public let neurons: [Neuron]
     
-    init(numberOfNeurons: Int, prevLayerOutputSize: Int) {
-        self.neurons = (0..<numberOfNeurons).map { _ in Neuron(inputSize: prevLayerOutputSize) }
+    convenience init(numberOfNeurons: Int, prevLayerOutputSize: Int) {
+        self.init(neurons: (0..<numberOfNeurons).map { _ in Neuron(inputSize: prevLayerOutputSize) })
+    }
+    
+    init(neurons: [Neuron]) {
+        self.neurons = neurons
     }
     
     func call(input: [Value]) -> [Value] {

@@ -3,4 +3,101 @@
    uuid = "36C2F3D5-A0BB-4BE4-BB53-3F0BEEF67186"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4085CE97-42D8-475A-8A1E-4A69E09F3AD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicrogradTests/MLP/NeuronTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "testNeuron()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0CB08C7-0EBE-4FD3-8BC1-45B33032ADA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicrogradTests/MLP/NeuronTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testNeuron_parameters_change()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0CB08C7-0EBE-4FD3-8BC1-45B33032ADA1 - bd3c5d5176e5a880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MicrogradTests.NeuronTests.testNeuron_parameters_change() throws -&gt; ()"
+                  moduleName = "MicrogradTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil/Developer/SwiftMicrograd/Modules/Micrograd/MicrogradTests/MLP/NeuronTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "B0CB08C7-0EBE-4FD3-8BC1-45B33032ADA1 - 3efa847514dacbe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Double) -&gt; Micrograd.Value in implicit closure #2 () throws -&gt; Swift.Bool in MicrogradTests.NeuronTests.testNeuron_parameters_change() throws -&gt; ()"
+                  moduleName = "MicrogradTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil/Developer/SwiftMicrograd/Modules/Micrograd/MicrogradTests/MLP/NeuronTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "B0CB08C7-0EBE-4FD3-8BC1-45B33032ADA1 - 7eea088f95c8d44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Micrograd.Value) -&gt; Swift.Double in implicit closure #2 () throws -&gt; Swift.Bool in MicrogradTests.NeuronTests.testNeuron_parameters_change() throws -&gt; ()"
+                  moduleName = "MicrogradTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kamil/Developer/SwiftMicrograd/Modules/Micrograd/MicrogradTests/MLP/NeuronTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5278C093-CB99-4462-8325-130EA9EBF88B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MicrogradTests/MLP/NeuronTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testNeuron_parameters_change()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

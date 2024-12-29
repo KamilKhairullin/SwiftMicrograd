@@ -65,6 +65,18 @@ final class ValueTestsAdd: XCTestCase {
         ValueTestsUtils.assertSet(sum.previous, ValueTestsUtils.makeSet(from: [value1, value2]))
     }
     
+    func testValue_add_same() throws {
+        let value1 = ValueTestsUtils.makeValue1()
+        
+        let sum = value1 + value1
+
+        ValueTestsUtils.assertDouble(sum.data, value1.data + value1.data)
+        ValueTestsUtils.assertDouble(sum.gradient, 0.0)
+        ValueTestsUtils.assertString(sum.label, "\(value1.label) + \(value1.label)")
+        ValueTestsUtils.assertString(sum.operation ?? "", "+")
+        ValueTestsUtils.assertSet(sum.previous, ValueTestsUtils.makeSet(from: [value1]))
+    }
+    
     func test_backpropagation_add() {
         let value1 = Value(data: 1)
         let value2 = Value(data: 2)
