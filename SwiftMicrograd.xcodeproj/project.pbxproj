@@ -10,12 +10,16 @@
 		683DA6356E02C6742676E0A0 /* Pods_SwiftMicrogradTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4D81B6E5026FEDB5415698 /* Pods_SwiftMicrogradTests.framework */; };
 		897BB361597A67612DEEB4F6 /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2936133B8762E35121347C /* Pods_SwiftMicrograd_SwiftMicrogradUITests.framework */; };
 		8E1EBAFC2D2079D500FF4ED5 /* SwiftMicrogradApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */; };
-		8E1EBAFE2D2079D500FF4ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */; };
 		8E1EBB002D2079D600FF4ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */; };
 		8E1EBB032D2079D600FF4ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EBB022D2079D600FF4ED5 /* Preview Assets.xcassets */; };
 		8E1EBB0E2D2079D600FF4ED5 /* SwiftMicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB0D2D2079D600FF4ED5 /* SwiftMicrogradTests.swift */; };
 		8E1EBB182D2079D600FF4ED5 /* SwiftMicrogradUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB172D2079D600FF4ED5 /* SwiftMicrogradUITests.swift */; };
 		8E1EBB1A2D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB192D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift */; };
+		8E1EBB272D207A8500FF4ED5 /* ValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB262D207A8500FF4ED5 /* ValueView.swift */; };
+		8E1EBB2F2D2081DD00FF4ED5 /* ValueGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB2E2D2081DD00FF4ED5 /* ValueGraphView.swift */; };
+		8E1EBB312D20890100FF4ED5 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB302D20890100FF4ED5 /* Line.swift */; };
+		8E1EBB332D208F5300FF4ED5 /* OperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB322D208F5300FF4ED5 /* OperationView.swift */; };
+		8E1EBB352D20946000FF4ED5 /* DataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB342D20946000FF4ED5 /* DataBuilder.swift */; };
 		E749A6A4206619F04CD34999 /* Pods_SwiftMicrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDDC59AB518AF7EF860739 /* Pods_SwiftMicrograd.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +48,6 @@
 		6EFDDC59AB518AF7EF860739 /* Pods_SwiftMicrograd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrograd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1EBAF82D2079D500FF4ED5 /* SwiftMicrograd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMicrograd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradApp.swift; sourceTree = "<group>"; };
-		8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E1EBB022D2079D600FF4ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E1EBB042D2079D600FF4ED5 /* SwiftMicrograd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftMicrograd.entitlements; sourceTree = "<group>"; };
@@ -53,6 +56,11 @@
 		8E1EBB132D2079D600FF4ED5 /* SwiftMicrogradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMicrogradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1EBB172D2079D600FF4ED5 /* SwiftMicrogradUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITests.swift; sourceTree = "<group>"; };
 		8E1EBB192D2079D600FF4ED5 /* SwiftMicrogradUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMicrogradUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E1EBB262D207A8500FF4ED5 /* ValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueView.swift; sourceTree = "<group>"; };
+		8E1EBB2E2D2081DD00FF4ED5 /* ValueGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueGraphView.swift; sourceTree = "<group>"; };
+		8E1EBB302D20890100FF4ED5 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		8E1EBB322D208F5300FF4ED5 /* OperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationView.swift; sourceTree = "<group>"; };
+		8E1EBB342D20946000FF4ED5 /* DataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBuilder.swift; sourceTree = "<group>"; };
 		B6A8EFA6BE76D8BE5719E491 /* Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrograd-SwiftMicrogradUITests/Pods-SwiftMicrograd-SwiftMicrogradUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA76D5A1953914CDD5CCEB36 /* Pods-SwiftMicrogradTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMicrogradTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftMicrogradTests/Pods-SwiftMicrogradTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC4D81B6E5026FEDB5415698 /* Pods_SwiftMicrogradTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMicrogradTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +134,11 @@
 			isa = PBXGroup;
 			children = (
 				8E1EBAFB2D2079D500FF4ED5 /* SwiftMicrogradApp.swift */,
-				8E1EBAFD2D2079D500FF4ED5 /* ContentView.swift */,
+				8E1EBB2E2D2081DD00FF4ED5 /* ValueGraphView.swift */,
+				8E1EBB262D207A8500FF4ED5 /* ValueView.swift */,
+				8E1EBB302D20890100FF4ED5 /* Line.swift */,
+				8E1EBB322D208F5300FF4ED5 /* OperationView.swift */,
+				8E1EBB342D20946000FF4ED5 /* DataBuilder.swift */,
 				8E1EBAFF2D2079D600FF4ED5 /* Assets.xcassets */,
 				8E1EBB042D2079D600FF4ED5 /* SwiftMicrograd.entitlements */,
 				8E1EBB012D2079D600FF4ED5 /* Preview Content */,
@@ -407,8 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1EBAFE2D2079D500FF4ED5 /* ContentView.swift in Sources */,
+				8E1EBB332D208F5300FF4ED5 /* OperationView.swift in Sources */,
+				8E1EBB272D207A8500FF4ED5 /* ValueView.swift in Sources */,
+				8E1EBB2F2D2081DD00FF4ED5 /* ValueGraphView.swift in Sources */,
+				8E1EBB352D20946000FF4ED5 /* DataBuilder.swift in Sources */,
 				8E1EBAFC2D2079D500FF4ED5 /* SwiftMicrogradApp.swift in Sources */,
+				8E1EBB312D20890100FF4ED5 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

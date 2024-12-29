@@ -25,6 +25,205 @@ final class ValueTests: XCTestCase {
         XCTAssert(sum.operation == "+")
         XCTAssert(sum.previous.subtracting([value1, value2]) == .init())
     }
+    
+    func testValue_add_double_right() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = value1 + 3.0
+
+        XCTAssert(sum.data == Constants.Value1.data + 3.0, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) + 3.000", "Sum label is not equal")
+        XCTAssert(sum.operation == "+")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_add_double_left() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = 3.0 + value1
+
+        XCTAssert(sum.data == Constants.Value1.data + 3.0, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "3.000 + \(Constants.Value1.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "+")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_mul() throws {
+        let value1 = ValueTests.makeValue1()
+        let value2 = ValueTests.makeValue2()
+        
+        let sum = value1 * value2
+
+        XCTAssert(sum.data == Constants.Value1.data * Constants.Value2.data, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) * \(Constants.Value2.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "*")
+        XCTAssert(sum.previous.subtracting([value1, value2]) == .init())
+    }
+    
+    func testValue_mul_double_right() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = value1 * 3.0
+
+        XCTAssert(sum.data == Constants.Value1.data * 3.0, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) * 3.000", "Sum label is not equal")
+        XCTAssert(sum.operation == "*")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_mul_double_left() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = 3.0 * value1
+
+        XCTAssert(sum.data == Constants.Value1.data * 3.0, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "3.000 * \(Constants.Value1.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "*")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_sub() throws {
+        let value1 = ValueTests.makeValue1()
+        let value2 = ValueTests.makeValue2()
+        
+        let sum = value1 - value2
+
+        XCTAssert(sum.data == Constants.Value1.data - Constants.Value2.data, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) - \(Constants.Value2.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "-")
+        XCTAssert(sum.previous.subtracting([value1, value2]) == .init())
+    }
+    
+    func testValue_sub_double_right() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = value1 - 3.0
+
+        XCTAssert(sum.data == Constants.Value1.data - 3.0, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) - 3.000", "Sum label is not equal")
+        XCTAssert(sum.operation == "-")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_sub_double_left() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = 3.0 - value1
+
+        XCTAssert(sum.data == 3.0 - Constants.Value1.data, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "3.000 - \(Constants.Value1.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "-")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_div() throws {
+        let value1 = ValueTests.makeValue1()
+        let value2 = ValueTests.makeValue2()
+        
+        let sum = value1 / value2
+
+        XCTAssert((sum.data - Constants.Value1.data / Constants.Value2.data) < 1e-10, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) / \(Constants.Value2.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "/")
+        XCTAssert(sum.previous.subtracting([value1, value2]) != .init())
+    }
+    
+    func testValue_div_double_right() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = value1 / 3.0
+
+        XCTAssert((sum.data - Constants.Value1.data / 3.0) < 1e-10, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) / 3.000", "Sum label is not equal")
+        XCTAssert(sum.operation == "/")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_div_double_left() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = 3.0 / value1
+
+        XCTAssert((sum.data - 3.0 / Constants.Value1.data) < 1e-10, "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "3.000 / \(Constants.Value1.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "/")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_pow() throws {
+        let value1 = ValueTests.makeValue1()
+        let value2 = ValueTests.makeValue2()
+        
+        let sum = value1 ^^ value2
+
+        XCTAssert(sum.data == pow(Constants.Value1.data, Constants.Value2.data), "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) ^ \(Constants.Value2.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "^")
+        XCTAssert(sum.previous.subtracting([value1, value2]) == .init())
+    }
+    
+    func testValue_pow_double_right() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = value1 ^^ 3.0
+
+        XCTAssert(sum.data == pow(Constants.Value1.data, 3.0), "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "\(Constants.Value1.label) ^ 3.000", "Sum label is not equal")
+        XCTAssert(sum.operation == "^")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_pow_double_left() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let sum = 3.0 ^^ value1
+
+        XCTAssert(sum.data == pow(3.0, Constants.Value1.data), "Sum data is not equal")
+        XCTAssert(sum.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(sum.label == "3.000 ^ \(Constants.Value1.label)", "Sum label is not equal")
+        XCTAssert(sum.operation == "^")
+        XCTAssert(sum.previous.subtracting([value1]) != .init())
+    }
+    
+    func testValue_exp() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let out = value1.exponent()
+
+        var set = Set<Value>.init()
+        set.insert(value1)
+        
+        XCTAssert(out.data == exp(value1.data), "Sum data is not equal")
+        XCTAssert(out.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(out.label == "exp(\(Constants.Value1.label))", "Sum label is not equal")
+        XCTAssert(out.operation == "exp")
+        XCTAssert(out.previous == set)
+    }
+    
+    func testValue_tanh() throws {
+        let value1 = ValueTests.makeValue1()
+        
+        let out = value1.tanh()
+        
+        XCTAssert((out.data - tanh(value1.data)) < 1e10, "Sum data is not equal")
+        XCTAssert(out.gradient == 0.0, "Sum gradient is not zero")
+        XCTAssert(out.label == "tanh(\(Constants.Value1.label))", "Sum label is not equal")
+        XCTAssert(out.operation == "tanh")
+        XCTAssert(out.previous != [value1])
+    }
 }
 
 extension ValueTests {

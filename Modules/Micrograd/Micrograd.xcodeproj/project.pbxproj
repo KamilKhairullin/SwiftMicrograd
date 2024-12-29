@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		8E1EBAD62D2070A600FF4ED5 /* Micrograd.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */; };
 		8E1EBADC2D2070A600FF4ED5 /* Micrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */; };
-		8E1EBAE12D2070A600FF4ED5 /* MicrogradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */; };
 		8E1EBAE22D2070A600FF4ED5 /* Micrograd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */; };
 		8E1EBAEE2D20738300FF4ED5 /* ValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */; };
+		8E1EBB2D2D207DE200FF4ED5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */; };
+		8E1EBB3B2D20ADCE00FF4ED5 /* Value+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */; };
+		8E1EBB402D20CA0F00FF4ED5 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB3F2D20CA0F00FF4ED5 /* Neuron.swift */; };
+		8E1EBB422D20CC7800FF4ED5 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB412D20CC7800FF4ED5 /* Layer.swift */; };
+		8E1EBB442D20CDDE00FF4ED5 /* MLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */; };
+		8E1EBB492D20D10400FF4ED5 /* Value+Backpropagation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +35,14 @@
 		8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Micrograd.h; sourceTree = "<group>"; };
 		8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Micrograd.docc; sourceTree = "<group>"; };
 		8E1EBADB2D2070A600FF4ED5 /* MicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrogradTests.swift; sourceTree = "<group>"; };
 		8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
 		8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTests.swift; sourceTree = "<group>"; };
+		8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Operators.swift"; sourceTree = "<group>"; };
+		8E1EBB3F2D20CA0F00FF4ED5 /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
+		8E1EBB412D20CC7800FF4ED5 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLP.swift; sourceTree = "<group>"; };
+		8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Backpropagation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,8 @@
 			children = (
 				8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */,
 				8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */,
-				8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */,
+				8E1EBB3E2D20C9F700FF4ED5 /* MultiLayerPerceptron */,
+				8E1EBB3C2D20C9DA00FF4ED5 /* Value */,
 			);
 			path = Micrograd;
 			sourceTree = "<group>";
@@ -85,10 +96,30 @@
 		8E1EBADF2D2070A600FF4ED5 /* MicrogradTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBAE02D2070A600FF4ED5 /* MicrogradTests.swift */,
 				8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */,
 			);
 			path = MicrogradTests;
+			sourceTree = "<group>";
+		};
+		8E1EBB3C2D20C9DA00FF4ED5 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */,
+				8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */,
+				8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */,
+				8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */,
+			);
+			path = Value;
+			sourceTree = "<group>";
+		};
+		8E1EBB3E2D20C9F700FF4ED5 /* MultiLayerPerceptron */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB3F2D20CA0F00FF4ED5 /* Neuron.swift */,
+				8E1EBB412D20CC7800FF4ED5 /* Layer.swift */,
+				8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */,
+			);
+			path = MultiLayerPerceptron;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +232,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1EBAD62D2070A600FF4ED5 /* Micrograd.docc in Sources */,
+				8E1EBB3B2D20ADCE00FF4ED5 /* Value+Operators.swift in Sources */,
+				8E1EBB2D2D207DE200FF4ED5 /* Extensions.swift in Sources */,
+				8E1EBB492D20D10400FF4ED5 /* Value+Backpropagation.swift in Sources */,
+				8E1EBB422D20CC7800FF4ED5 /* Layer.swift in Sources */,
+				8E1EBB442D20CDDE00FF4ED5 /* MLP.swift in Sources */,
 				8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */,
+				8E1EBB402D20CA0F00FF4ED5 /* Neuron.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1EBAE12D2070A600FF4ED5 /* MicrogradTests.swift in Sources */,
 				8E1EBAEE2D20738300FF4ED5 /* ValueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
