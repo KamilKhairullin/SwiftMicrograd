@@ -11,7 +11,6 @@
 		8E1EBADC2D2070A600FF4ED5 /* Micrograd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1EBAD12D2070A600FF4ED5 /* Micrograd.framework */; };
 		8E1EBAE22D2070A600FF4ED5 /* Micrograd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */; };
-		8E1EBAEE2D20738300FF4ED5 /* ValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */; };
 		8E1EBB2D2D207DE200FF4ED5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */; };
 		8E1EBB3B2D20ADCE00FF4ED5 /* Value+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */; };
 		8E1EBB402D20CA0F00FF4ED5 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB3F2D20CA0F00FF4ED5 /* Neuron.swift */; };
@@ -19,6 +18,14 @@
 		8E1EBB442D20CDDE00FF4ED5 /* MLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */; };
 		8E1EBB492D20D10400FF4ED5 /* Value+Backpropagation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */; };
 		8E1EBB4C2D20D26300FF4ED5 /* SqareLoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */; };
+		8E1EBB4E2D21AA9500FF4ED5 /* ValueTestsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB4D2D21AA9500FF4ED5 /* ValueTestsAdd.swift */; };
+		8E1EBB502D21AF7900FF4ED5 /* ValueTestsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB4F2D21AF7900FF4ED5 /* ValueTestsUtils.swift */; };
+		8E1EBB522D21BB7C00FF4ED5 /* ValueTestsMul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB512D21BB7C00FF4ED5 /* ValueTestsMul.swift */; };
+		8E1EBB542D21BC4200FF4ED5 /* ValueTestsSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB532D21BC4200FF4ED5 /* ValueTestsSub.swift */; };
+		8E1EBB562D21BF9700FF4ED5 /* ValueTestsDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB552D21BF9700FF4ED5 /* ValueTestsDiv.swift */; };
+		8E1EBB582D21C4DB00FF4ED5 /* ValueTestsPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */; };
+		8E1EBB5A2D21C68000FF4ED5 /* ValueTestsTanh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */; };
+		8E1EBB5C2D21C89000FF4ED5 /* ValueTestsExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 		8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Micrograd.docc; sourceTree = "<group>"; };
 		8E1EBADB2D2070A600FF4ED5 /* MicrogradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrogradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
-		8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTests.swift; sourceTree = "<group>"; };
 		8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Operators.swift"; sourceTree = "<group>"; };
 		8E1EBB3F2D20CA0F00FF4ED5 /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
@@ -45,6 +51,14 @@
 		8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLP.swift; sourceTree = "<group>"; };
 		8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Backpropagation.swift"; sourceTree = "<group>"; };
 		8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqareLoss.swift; sourceTree = "<group>"; };
+		8E1EBB4D2D21AA9500FF4ED5 /* ValueTestsAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsAdd.swift; sourceTree = "<group>"; };
+		8E1EBB4F2D21AF7900FF4ED5 /* ValueTestsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsUtils.swift; sourceTree = "<group>"; };
+		8E1EBB512D21BB7C00FF4ED5 /* ValueTestsMul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsMul.swift; sourceTree = "<group>"; };
+		8E1EBB532D21BC4200FF4ED5 /* ValueTestsSub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsSub.swift; sourceTree = "<group>"; };
+		8E1EBB552D21BF9700FF4ED5 /* ValueTestsDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsDiv.swift; sourceTree = "<group>"; };
+		8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsPow.swift; sourceTree = "<group>"; };
+		8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsTanh.swift; sourceTree = "<group>"; };
+		8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTestsExp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +114,14 @@
 		8E1EBADF2D2070A600FF4ED5 /* MicrogradTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBAED2D20738300FF4ED5 /* ValueTests.swift */,
+				8E1EBB4F2D21AF7900FF4ED5 /* ValueTestsUtils.swift */,
+				8E1EBB4D2D21AA9500FF4ED5 /* ValueTestsAdd.swift */,
+				8E1EBB512D21BB7C00FF4ED5 /* ValueTestsMul.swift */,
+				8E1EBB532D21BC4200FF4ED5 /* ValueTestsSub.swift */,
+				8E1EBB552D21BF9700FF4ED5 /* ValueTestsDiv.swift */,
+				8E1EBB572D21C4DB00FF4ED5 /* ValueTestsPow.swift */,
+				8E1EBB592D21C68000FF4ED5 /* ValueTestsTanh.swift */,
+				8E1EBB5B2D21C89000FF4ED5 /* ValueTestsExp.swift */,
 			);
 			path = MicrogradTests;
 			sourceTree = "<group>";
@@ -258,7 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E1EBAEE2D20738300FF4ED5 /* ValueTests.swift in Sources */,
+				8E1EBB522D21BB7C00FF4ED5 /* ValueTestsMul.swift in Sources */,
+				8E1EBB542D21BC4200FF4ED5 /* ValueTestsSub.swift in Sources */,
+				8E1EBB5C2D21C89000FF4ED5 /* ValueTestsExp.swift in Sources */,
+				8E1EBB5A2D21C68000FF4ED5 /* ValueTestsTanh.swift in Sources */,
+				8E1EBB562D21BF9700FF4ED5 /* ValueTestsDiv.swift in Sources */,
+				8E1EBB502D21AF7900FF4ED5 /* ValueTestsUtils.swift in Sources */,
+				8E1EBB582D21C4DB00FF4ED5 /* ValueTestsPow.swift in Sources */,
+				8E1EBB4E2D21AA9500FF4ED5 /* ValueTestsAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

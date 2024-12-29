@@ -13,13 +13,13 @@ public class Value: Identifiable {
     public init(
         data: Double,
         gradient: Double = 0.0,
-        label: String = "",
+        label: String? = nil,
         operation: String? = nil,
         previous: Set<Value> = .init()
     ) {
         self.data = data
         self.gradient = gradient
-        self.label = label
+        self.label = label ?? data.toStringRounded(scale: 3)
         self.operation = operation
         self.previous = previous
         self.id = UUID()
@@ -28,11 +28,17 @@ public class Value: Identifiable {
 
 extension Value: Hashable {
     public static func == (lhs: Value, rhs: Value) -> Bool {
-        lhs.id == rhs.id
+        abs(lhs.data - rhs.data) < 1e-10 &&
+        abs(lhs.gradient - rhs.gradient) < 1e-10 &&
+        lhs.label == rhs.label &&
+        lhs.operation == rhs.operation
     }
     
     public func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
+        hasher.combine(data)
+        hasher.combine(gradient)
+        hasher.combine(label)
+        hasher.combine(operation)
     }
 }
 
