@@ -18,6 +18,7 @@
 		8E1EBB422D20CC7800FF4ED5 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB412D20CC7800FF4ED5 /* Layer.swift */; };
 		8E1EBB442D20CDDE00FF4ED5 /* MLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */; };
 		8E1EBB492D20D10400FF4ED5 /* Value+Backpropagation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */; };
+		8E1EBB4C2D20D26300FF4ED5 /* SqareLoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8E1EBB412D20CC7800FF4ED5 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLP.swift; sourceTree = "<group>"; };
 		8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Backpropagation.swift"; sourceTree = "<group>"; };
+		8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqareLoss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,8 @@
 			children = (
 				8E1EBAD42D2070A600FF4ED5 /* Micrograd.h */,
 				8E1EBAD52D2070A600FF4ED5 /* Micrograd.docc */,
+				8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */,
+				8E1EBB4A2D20D24500FF4ED5 /* CostFunctions */,
 				8E1EBB3E2D20C9F700FF4ED5 /* MultiLayerPerceptron */,
 				8E1EBB3C2D20C9DA00FF4ED5 /* Value */,
 			);
@@ -104,7 +108,6 @@
 		8E1EBB3C2D20C9DA00FF4ED5 /* Value */ = {
 			isa = PBXGroup;
 			children = (
-				8E1EBB2C2D207DE200FF4ED5 /* Extensions.swift */,
 				8E1EBAEB2D2070FA00FF4ED5 /* Value.swift */,
 				8E1EBB3A2D20ADCE00FF4ED5 /* Value+Operators.swift */,
 				8E1EBB482D20D10400FF4ED5 /* Value+Backpropagation.swift */,
@@ -120,6 +123,14 @@
 				8E1EBB432D20CDDE00FF4ED5 /* MLP.swift */,
 			);
 			path = MultiLayerPerceptron;
+			sourceTree = "<group>";
+		};
+		8E1EBB4A2D20D24500FF4ED5 /* CostFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				8E1EBB4B2D20D26300FF4ED5 /* SqareLoss.swift */,
+			);
+			path = CostFunctions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				8E1EBB3B2D20ADCE00FF4ED5 /* Value+Operators.swift in Sources */,
 				8E1EBB2D2D207DE200FF4ED5 /* Extensions.swift in Sources */,
 				8E1EBB492D20D10400FF4ED5 /* Value+Backpropagation.swift in Sources */,
+				8E1EBB4C2D20D26300FF4ED5 /* SqareLoss.swift in Sources */,
 				8E1EBB422D20CC7800FF4ED5 /* Layer.swift in Sources */,
 				8E1EBB442D20CDDE00FF4ED5 /* MLP.swift in Sources */,
 				8E1EBAEC2D2070FA00FF4ED5 /* Value.swift in Sources */,

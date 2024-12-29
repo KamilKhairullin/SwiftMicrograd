@@ -1,6 +1,6 @@
 import Foundation
 
-extension Value {
+public extension Value {
     
     static func start_backpropagation(_ v: Value) {
         var topo: Array<Value> = .init()
@@ -11,7 +11,7 @@ extension Value {
             item.backward()
         }
     }
-    
+
     static func sortTopological(topo: inout [Value], visited: inout Set<Value>, value: Value) {
         if(!visited.contains(value)) {
             visited.insert(value)
