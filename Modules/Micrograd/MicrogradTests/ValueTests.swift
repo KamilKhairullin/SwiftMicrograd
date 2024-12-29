@@ -222,7 +222,7 @@ final class ValueTests: XCTestCase {
         XCTAssert(out.gradient == 0.0, "Sum gradient is not zero")
         XCTAssert(out.label == "tanh(\(Constants.Value1.label))", "Sum label is not equal")
         XCTAssert(out.operation == "tanh")
-        XCTAssert(out.previous != [value1])
+        XCTAssert(out.previous == [value1])
     }
 }
 

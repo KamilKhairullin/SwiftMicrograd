@@ -36,9 +36,17 @@ extension Value: Hashable {
     }
 }
 
-extension Value {
+public extension Value {
     
     static func makeRandomValue() -> Value {
-        return Value(data: Double.random(in: 0...1))
+        return Value(data: Double.random(in: 0..<0.5))
+    }
+    
+    var pretty: String {
+        self.data.toStringRounded(scale: 4)
+    }
+    
+    var prettyGrad: String {
+        self.gradient.toStringRounded(scale: 2)
     }
 }

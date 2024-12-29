@@ -1,8 +1,8 @@
 import Foundation
 
 class Neuron {
-    let bias: Value
-    let weights: [Value]
+    var bias: Value
+    var weights: [Value]
     
     init(inputSize: Int) {
         self.bias = Value.makeRandomValue()

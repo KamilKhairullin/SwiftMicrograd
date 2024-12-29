@@ -1,19 +1,19 @@
 import Foundation
 
-class MLP {
+public class MLP {
     
     let layers: [Layer]
     
-    init(layersWithSize: [Int]) {
+    public init(layersWithSize: [Int]) {
         var layers: [Layer] = []
         for i in 0..<layersWithSize.count {
-            let layer = Layer(numberOfNeurons: layersWithSize[i], prevLayerOutputSize: i == 0 ? i : i - 1)
+            let layer = Layer(numberOfNeurons: layersWithSize[i], prevLayerOutputSize: i == 0 ? 2 : layers[i-1].neurons.count)
             layers.append(layer)
         }
         self.layers = layers
     }
     
-    func call(input: [Value]) -> [Value] {
+    public func call(input: [Value]) -> [Value] {
         var x = input
         for layer in layers {
             x = layer.call(input: x)
@@ -21,7 +21,13 @@ class MLP {
         return x
     }
     
-    func parameters() -> [Value] {
+    public func parameters() -> [Value] {
         return layers.flatMap { $0.parameters() }
+    }
+    
+    public func zeroParameters() {
+        self.parameters().forEach {
+            $0.gradient = 0
+        }
     }
 }
