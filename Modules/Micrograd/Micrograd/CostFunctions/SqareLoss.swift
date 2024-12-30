@@ -14,6 +14,6 @@ final public class SquareLoss {
             let sqloss_i = sub ^^ 2
             squareLoss = squareLoss + sqloss_i
         }
-        return squareLoss
+        return squareLoss / Double(y_pred.count)
     }
 }

@@ -1,6 +1,6 @@
 import Foundation
 
-public class MLP {
+public final class MLP {
     
     let layers: [Layer]
     
@@ -31,6 +31,17 @@ public class MLP {
     
     public func parameters() -> [Value] {
         return layers.flatMap { $0.parameters() }
+    }
+    
+    public func setParameters(parameters: [Value]) {
+        var slide = 0
+        for layer in layers {
+            let paramsCount = layer.parameters().count
+            let start = slide
+            let end = start + paramsCount
+            layer.setParameters(parameters: Array(parameters[start..<end]))
+            slide += paramsCount
+        }
     }
     
     public func zeroParameters() {

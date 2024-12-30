@@ -1,6 +1,6 @@
 import Foundation
 
-class Neuron {
+final class Neuron {
     var bias: Value
     var weights: [Value]
     
@@ -26,5 +26,13 @@ class Neuron {
     
     func parameters() -> [Value] {
         return weights + [bias]
+    }
+    
+    public func setParameters(parameters: [Value]) {
+        var slide = 0
+        for index in 0..<weights.count {
+            weights[index] = parameters[index]
+        }
+        bias = parameters[weights.count]
     }
 }

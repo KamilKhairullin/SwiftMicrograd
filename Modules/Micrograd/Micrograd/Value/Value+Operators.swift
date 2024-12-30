@@ -214,14 +214,6 @@ public extension Value {
 
 public extension Value {
 
-//    func tanh() -> Value {
-//        let exp = (2 * self).exponent()
-//        let out = (exp - 1) / (exp + 1)
-//        out.label = "tanh(\(self.label))"
-//        out.operation = "tanh"
-//        return out
-//    }
-//    
     func tanh() -> Value {
         let out = Value(
             data: Darwin.tanh(self.data),
@@ -235,25 +227,7 @@ public extension Value {
         }
         return out
     }
-        
-//    func tanh() -> Value {
-//        let n = self.data
-//        let e = exp((2 * n))
-//        let out = (e - 1) / (e + 1)
-//        let value = Value(
-//            data: out,
-//            gradient: 0.0,
-//            label: "tanh(\(self.label))",
-//            operation: "tanh",
-//            previous: [self]
-//        )
-//        value.backward = {
-//            self.gradient += (1 - out * out) * value.gradient
-//        }
-//        return value
-//    }
-  
-    
+
     func exponent() -> Value {
         let out = Value(
             data: exp(self.data),

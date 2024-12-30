@@ -1,11 +1,11 @@
 import Foundation
 
-public class Value: Identifiable {
+public final class Value: Identifiable {
     
     public var data: Double
     public var gradient: Double
-    public var label: String
-    public var operation: String?
+    public var label: String = ""
+    public var operation: String? = ""
     public var previous: Set<Value>
     public var backward: (() -> ()) = {}
     public let id: UUID
@@ -19,8 +19,8 @@ public class Value: Identifiable {
     ) {
         self.data = data
         self.gradient = gradient
-        self.label = label ?? data.toStringRounded(scale: 3)
-        self.operation = operation
+//        self.label = ""label ?? data.toStringRounded(scale: 3)
+//        self.operation = operation
         self.previous = previous
         self.id = UUID()
     }
@@ -36,11 +36,11 @@ extension Value: Hashable {
     }
     
     public func hash(into hasher: inout Hasher) {
-        hasher.combine(data)
-        hasher.combine(gradient)
-        hasher.combine(label)
-        hasher.combine(operation)
-//        hasher.combine(id)
+//        hasher.combine(data)
+//        hasher.combine(gradient)
+//        hasher.combine(label)
+//        hasher.combine(operation)
+        hasher.combine(id)
     }
 }
 
@@ -51,11 +51,10 @@ public extension Value {
     }
     
     static func makeRandomValueTrain() -> Value {
-        return Value(data: Double.random(in: 0.0..<0.5).round(to: 3))
+        return Value(data: Double.random(in: -0.5..<0.5).round(to: 4))
     }
     
     // 0.1 0.2 0.3 0.4 0.5
-    
     var pretty: String {
         self.data.toStringRounded(scale: 4)
     }

@@ -1,6 +1,6 @@
 import Foundation
 
-class Layer {
+final class Layer {
     
     public let neurons: [Neuron]
     
@@ -18,5 +18,16 @@ class Layer {
     
     func parameters() -> [Value] {
         neurons.flatMap { $0.parameters() }
+    }
+    
+    public func setParameters(parameters: [Value]) {
+        var slide = 0
+        for neuron in neurons {
+            let paramsCount = neuron.parameters().count
+            let start = slide
+            let end = start + paramsCount
+            neuron.setParameters(parameters: Array(parameters[start..<end]))
+            slide += paramsCount
+        }
     }
 }
